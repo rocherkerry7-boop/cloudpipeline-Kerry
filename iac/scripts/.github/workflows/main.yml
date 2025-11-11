@@ -6,7 +6,7 @@ on:
   pull_request:
 
 jobs:
-  build:
+  validate:
     runs-on: ubuntu-latest
     steps:
       - name: Check out code
